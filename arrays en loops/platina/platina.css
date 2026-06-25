@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0b0b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ffcc;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#bus {
+    font-size: 60px;
+    margin-top: 30px;
+    position: relative;
+    left: 0;
+    transition: left 3s linear;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #444;
+    display: inline-block;
+    min-width: 300px;
+}

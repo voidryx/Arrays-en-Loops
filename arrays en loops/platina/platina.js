@@ -1,7 +1,7 @@
 // voorbeeld passagiers
 let passagiers = [
-    { naam: "Leo", saldo: 20, img: "https://i.imgur.com/1X5Q9ZC.png" },
-    { naam: "Nicole", saldo: 15, img: "https://i.imgur.com/3GmB7Qy.png" }
+    { naam: "Leo", saldo: 20, img: "#" },
+    { naam: "Nicole", saldo: 15, img: "#" }
 ];
 
 let output = document.getElementById("output");
@@ -51,5 +51,5 @@ function startBus() {
 
     bus.style.left = "300px";
 
-    output.innerHTML = " De bus rijdt de route...";
+    output.innerHTML = "De bus rijdt de route...";
 }
